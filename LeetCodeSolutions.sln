@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolutions.MajorityE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolutions.RemoveElement27", "LeetCodeSolutions.RemoveElement27\LeetCodeSolutions.RemoveElement27.csproj", "{49EAA348-459E-4605-B2E1-5EB6BAC2A993}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber9", "PalindromeNumber9\PalindromeNumber9.csproj", "{248F79F5-67DE-4710-98C8-1EFF149FEDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{49EAA348-459E-4605-B2E1-5EB6BAC2A993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EAA348-459E-4605-B2E1-5EB6BAC2A993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EAA348-459E-4605-B2E1-5EB6BAC2A993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248F79F5-67DE-4710-98C8-1EFF149FEDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248F79F5-67DE-4710-98C8-1EFF149FEDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248F79F5-67DE-4710-98C8-1EFF149FEDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248F79F5-67DE-4710-98C8-1EFF149FEDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
