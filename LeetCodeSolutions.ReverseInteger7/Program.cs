@@ -11,9 +11,10 @@ int Reverse(int x)
     {
         count++;
         currentReminder = x % 10;
-        if (count == 10 && original % 10 > 2) return 0;
-    
-        reversed = reversed * 10 + currentReminder;
+        int newVal = reversed * 10 + currentReminder;
+        if (newVal < reversed && reversed > 0) return 0;
+        if (newVal > reversed && reversed < 0) return 0;
+        reversed = newVal;
         x /= 10;
     }
     if (count == 10 && original % 10 > 2) return 0;
